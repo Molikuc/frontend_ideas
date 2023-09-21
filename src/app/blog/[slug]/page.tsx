@@ -1,5 +1,5 @@
 import Productcard from "@/components/Productcard";
-import Elements2 from "@/components/Elements2";
+import Playercard from "@/components/Playercard";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -8,8 +8,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
     switch (element) {
       case "productcard":
         return <Productcard />;
-      case "elements2":
-        return <Elements2 />;
+      case "playercard":
+        return <Playercard />;
       default:
         return <div>Element not Found</div>;
     }
