@@ -23,7 +23,7 @@ const Playercard = () => {
 
   return (
     <div className="h-screen flex flex-col items-center">
-      <div className="text-7xl flex justify-center my-5">Product Card</div>
+      <div className="text-7xl flex justify-center my-5">Player Card</div>
       <div className="flex flex-col items-center bg-zinc-200 w-[30rem] shadow-xl pb-7 rounded-lg overflow-hidden">
         <div className="h-[20rem]">
           <Image
