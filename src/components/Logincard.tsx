@@ -50,7 +50,7 @@ const Logincard = ({}) => {
             Forgot?
           </span>
         </div>
-        <div className="bg-blue-600 rounded-xl p-4 text-center text-white font-bold mx-4 mb-8">
+        <div className="bg-blue-600 rounded-xl p-4 text-center text-white font-bold mx-4 mb-8 cursor-pointer select-none active:bg-blue-700">
           Login
         </div>
         <div className="text-center opacity-50 mb-4">Or, login with</div>
