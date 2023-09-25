@@ -7,6 +7,7 @@ export default function Home() {
       <Link href="/blog/playercard">Player Card</Link>
       <Link href="/blog/logincard">Login Card</Link>
       <Link href="/blog/signupcard">Signup Card</Link>
+      <Link href="/blog/popupcard">Pop up Card</Link>
     </div>
   );
 }
