@@ -42,22 +42,22 @@ const Calendar = () => {
           <div className="text-sm h-full overflow-scroll no-scrollbar flex flex-col gap-2">
             <div className="flex gap-2">
               <div className="w-[25%]">12 AM</div>
-              <div className="h-[5rem] w-full border-t-2"></div>
+              <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
             </div>
             {hours.map((hour) => (
               <div key={hour} className="flex gap-2">
                 <div className="w-[25%]">{hour} AM</div>
-                <div className="h-[5rem] w-full border-t-2"></div>
+                <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
               </div>
             ))}
             <div className="flex gap-2">
               <div className="w-[25%]">12 PM</div>
-              <div className="h-[5rem] w-full border-t-2"></div>
+              <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
             </div>
             {hours.map((hour) => (
               <div key={hour} className="flex gap-2">
                 <div className="w-[25%]">{hour} PM</div>
-                <div className="h-[5rem] w-full border-t-2"></div>
+                <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
               </div>
             ))}
           </div>
