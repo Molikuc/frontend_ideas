@@ -69,22 +69,28 @@ const Calendar = () => {
           <div className="text-sm h-[85%] overflow-scroll no-scrollbar flex flex-col gap-2 ml-4">
             <div className="flex gap-2">
               <div className="w-[25%]">12 AM</div>
-              <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
+              <input
+                type="text"
+                className="h-[3.5rem] w-full border-t-2 mt-2 cursor-pointer outline-none"
+              ></input>
             </div>
             {hours.map((hour) => (
               <div key={hour} className="flex gap-2">
                 <div className="w-[25%]">{hour} AM</div>
-                <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
+                <input
+                  type="text"
+                  className="h-[3.5rem] w-full border-t-2 mt-2 cursor-pointer outline-none"
+                />
               </div>
             ))}
             <div className="flex gap-2">
               <div className="w-[25%]">12 PM</div>
-              <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
+              <div className="h-[3.5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
             </div>
             {hours.map((hour) => (
               <div key={hour} className="flex gap-2">
                 <div className="w-[25%]">{hour} PM</div>
-                <div className="h-[5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
+                <div className="h-[3.5rem] w-full border-t-2 mt-2 cursor-pointer"></div>
               </div>
             ))}
           </div>
