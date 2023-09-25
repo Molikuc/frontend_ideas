@@ -8,6 +8,7 @@ export default function Home() {
       <Link href="/blog/logincard">Login Card</Link>
       <Link href="/blog/signupcard">Signup Card</Link>
       <Link href="/blog/popupcard">Pop up Card</Link>
+      <Link href="/blog/calendar">Calendar</Link>
     </div>
   );
 }

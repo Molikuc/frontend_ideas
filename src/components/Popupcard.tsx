@@ -1,6 +1,6 @@
 import { X } from "lucide-react";
 
-const Popupcard = ({}) => {
+const Popupcard = () => {
   return (
     <div className="h-screen flex flex-col items-center">
       <div className="text-7xl flex justify-center my-5 mb-10">Pop up Card</div>

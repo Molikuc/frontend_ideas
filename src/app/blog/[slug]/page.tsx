@@ -3,6 +3,7 @@ import Playercard from "@/components/Playercard";
 import Logincard from "@/components/Logincard";
 import Signupcard from "@/components/Signupcard";
 import Popupcard from "@/components/Popupcard";
+import Calendar from "@/components/Calendar";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -19,6 +20,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <Signupcard />;
       case "popupcard":
         return <Popupcard />;
+      case "calendar":
+        return <Calendar />;
       default:
         return <div>Element not Found</div>;
     }
