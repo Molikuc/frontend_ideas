@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import Productcard from "../images/ProductCard.png";
-import MusicPlayer from "../images/MusicPlayer.png";
-import Login from "../images/Login.png";
-import Signup from "../images/Signup.png";
-import Popup from "../images/Popup.png";
-import Calendar from "../images/Calendar.png";
-import CreditCard from "../images/CreditCard.png";
+import productcard from "../images/ProductCard.png";
+import musicPlayer from "../images/MusicPlayer.png";
+import login from "../images/Login.png";
+import signup from "../images/Signup.png";
+import popup from "../images/Popup.png";
+import calendar from "../images/Calendar.png";
+import creditCard from "../images/CreditCard.png";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8 min-w-[10rem]">
           <Image
-            src={Productcard}
+            src={productcard}
             alt="Product Card"
             className="object-contain h-full object-center "
           />
@@ -30,7 +30,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={MusicPlayer}
+            src={musicPlayer}
             alt="Music Player"
             className="object-cover h-full object-[50%_50%]"
           />
@@ -43,7 +43,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={Login}
+            src={login}
             alt="Login Card"
             className="object-cover h-full object-[50%_50%]"
           />
@@ -56,7 +56,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={Signup}
+            src={signup}
             alt="Sign Up Card"
             className="object-cover h-full object-[50%_50%]"
           />
@@ -69,7 +69,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={Popup}
+            src={popup}
             alt="Popup Card"
             className="object-cover h-full object-[50%_70%]"
           />
@@ -82,7 +82,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={Calendar}
+            src={calendar}
             alt="Calendar"
             className="object-cover h-full object-[50%_70%]"
           />
@@ -95,7 +95,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={CreditCard}
+            src={creditCard}
             alt="Credit Card"
             className="object-contain h-full object-center "
           />
