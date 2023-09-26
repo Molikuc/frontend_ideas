@@ -10,7 +10,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8 min-w-[10rem]">
           <Image
-            src="/thumbnail/ProductCard.png"
+            src={"/thumbnail/ProductCard.png"}
             alt="Product Card"
             width={500}
             height={500}
@@ -25,7 +25,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/MusicPlayer.png"
+            src={"/thumbnail/MusicPlayer.png"}
             width={500}
             height={500}
             alt="Music Player"
@@ -40,7 +40,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/Login.png"
+            src={"/thumbnail/Login.png"}
             width={500}
             height={500}
             alt="Login Card"
@@ -55,7 +55,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/Signup.png"
+            src={"/thumbnail/Signup.png"}
             width={500}
             height={500}
             alt="Sign Up Card"
@@ -70,7 +70,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/Popup.png"
+            src={"/thumbnail/Popup.png"}
             width={500}
             height={500}
             alt="Popup Card"
@@ -85,7 +85,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/Calendar.png"
+            src={"/thumbnail/Calendar.png"}
             width={500}
             height={500}
             alt="Calendar"
@@ -100,7 +100,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src="/thumbnail/CreditCard.png"
+            src={"/thumbnail/CreditCard.png"}
             width={500}
             height={500}
             alt="Credit Card"
