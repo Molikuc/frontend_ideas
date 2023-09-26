@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import Productcard from "@/images/thumbnail/ProductCard.png";
-import MusicPlayer from "@/images/thumbnail/MusicPlayer.png";
-import Login from "@/images/thumbnail/Login.png";
-import Signup from "@/images/thumbnail/Signup.png";
-import Popup from "@/images/thumbnail/Popup.png";
-import Calendar from "@/images/thumbnail/Calendar.png";
-import CreditCard from "@/images/thumbnail/CreditCard.png";
+import Productcard from "../images/thumbnail/ProductCard.png";
+import MusicPlayer from "../images/thumbnail/MusicPlayer.png";
+import Login from "../images/thumbnail/Login.png";
+import Signup from "../images/thumbnail/Signup.png";
+import Popup from "../images/thumbnail/Popup.png";
+import Calendar from "../images/thumbnail/Calendar.png";
+import CreditCard from "../images/thumbnail/CreditCard.png";
 
 export default function Home() {
   return (
@@ -19,8 +19,6 @@ export default function Home() {
           <Image
             src={Productcard}
             alt="Product Card"
-            width={500}
-            height={500}
             className="object-contain h-full object-center "
           />
         </div>
@@ -33,8 +31,6 @@ export default function Home() {
         <div className="h-[10rem] mb-8">
           <Image
             src={MusicPlayer}
-            width={500}
-            height={500}
             alt="Music Player"
             className="object-cover h-full object-[50%_50%]"
           />
