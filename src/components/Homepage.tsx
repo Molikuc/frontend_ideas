@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import productCard from "./../../public/thumbnail/ProductCard.png";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8 min-w-[10rem]">
           <Image
-            src={"/thumbnail/ProductCard.png"}
+            src={productCard}
             alt="Product Card"
             width={500}
             height={500}
