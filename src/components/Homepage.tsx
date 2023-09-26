@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import Productcard from "../images/thumbnail/ProductCard.png";
-import MusicPlayer from "../images/thumbnail/MusicPlayer.png";
-import Login from "../images/thumbnail/Login.png";
-import Signup from "../images/thumbnail/Signup.png";
-import Popup from "../images/thumbnail/Popup.png";
-import Calendar from "../images/thumbnail/Calendar.png";
-import CreditCard from "../images/thumbnail/CreditCard.png";
+import Productcard from "../images/ProductCard.png";
+import MusicPlayer from "../images/MusicPlayer.png";
+import Login from "../images/Login.png";
+import Signup from "../images/Signup.png";
+import Popup from "../images/Popup.png";
+import Calendar from "../images/Calendar.png";
+import CreditCard from "../images/CreditCard.png";
 
 export default function Home() {
   return (
