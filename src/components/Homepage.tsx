@@ -10,7 +10,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8 min-w-[10rem]">
           <Image
-            src={"/static/images/ProductCard.png"}
+            src={"/ProductCard.png"}
             alt="Product Card"
             width={500}
             height={500}
