@@ -109,6 +109,21 @@ export default function Home() {
         </div>
         <div className="text-2xl">Credit Card</div>
       </Link>
+      <Link
+        className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
+        href="/blog/menu"
+      >
+        <div className="h-[10rem] mb-8">
+          <Image
+            src={"/thumbnail/CreditCard.png"}
+            width={500}
+            height={500}
+            alt="Menu"
+            className="object-contain h-full object-center "
+          />
+        </div>
+        <div className="text-2xl">Menu</div>
+      </Link>
     </div>
   );
 }
