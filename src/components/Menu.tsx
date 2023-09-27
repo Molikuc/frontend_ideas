@@ -14,7 +14,7 @@ const Menu = () => {
   };
   return (
     <div className="h-screen flex flex-col items-center">
-      <div className="text-7xl flex justify-center my-5">Menu Card</div>
+      <div className="text-7xl flex justify-center my-5">Menu Animation</div>
       <div className="mb-8">
         I didn&rsquo;t put animation on categories. I am using Framer Motion
       </div>

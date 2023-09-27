@@ -122,7 +122,7 @@ export default function Home() {
             className="object-contain h-full object-center "
           />
         </div>
-        <div className="text-2xl">Menu</div>
+        <div className="text-2xl">Menu Animation</div>
       </Link>
     </div>
   );
