@@ -115,7 +115,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={"/thumbnail/CreditCard.png"}
+            src={"/thumbnail/Menu.png"}
             width={500}
             height={500}
             alt="Menu"
