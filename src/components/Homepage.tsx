@@ -130,11 +130,11 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={"/thumbnail/Menu.png"}
+            src={"/thumbnail/Profile.png"}
             width={500}
             height={500}
-            alt="Menu"
-            className="object-contain h-full object-center "
+            alt="Profile Card"
+            className="object-cover h-full object-[50%_40%] "
           />
         </div>
         <div className="text-2xl">Profile Card</div>
