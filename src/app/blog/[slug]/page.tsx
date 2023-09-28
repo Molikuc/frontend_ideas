@@ -6,6 +6,7 @@ import Popupcard from "@/components/Popupcard";
 import Calendar from "@/components/Calendar";
 import Creditcard from "@/components/Creditcard";
 import Menu from "@/components/Menu";
+import ProfileCard from "@/components/ProfileCard";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -28,6 +29,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <Creditcard />;
       case "menu":
         return <Menu />;
+      case "profilecard":
+        return <ProfileCard />;
       default:
         return <div>Element not Found</div>;
     }
