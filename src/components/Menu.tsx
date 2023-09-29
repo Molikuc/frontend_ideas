@@ -18,7 +18,7 @@ const Menu = () => {
       <div className="mb-8">
         I didn&rsquo;t put animation on categories. I am using Framer Motion
       </div>
-      <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col p-3">
+      <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col px-3 sm:p-0">
         <div className="border-b-2 ">
           <div className="flex justify-between mx-8 mb-4 items-center ">
             <div className="flex gap-2">
@@ -40,32 +40,32 @@ const Menu = () => {
               onClick={() => toggleMenu("WOMEN")}
               className="flex justify-between border-b-2  h-14 items-center cursor-pointer"
             >
-              <div>WOMEN</div>
-              <ChevronRight />
+              <div className="ml-3">WOMEN</div>
+              <ChevronRight className="mr-3" />
             </div>
             <div
               //@ts-ignore
               onClick={() => toggleMenu("MEN")}
               className="flex justify-between border-b-2 h-14 items-center cursor-pointer"
             >
-              <div>MEN</div>
-              <ChevronRight />
+              <div className="ml-3">MEN</div>
+              <ChevronRight className="mr-3" />
             </div>
             <div
               //@ts-ignore
               onClick={() => toggleMenu("KIDS")}
               className="flex justify-between border-b-2 h-14 items-center cursor-pointer"
             >
-              <div>KIDS</div>
-              <ChevronRight />
+              <div className="ml-3">KIDS</div>
+              <ChevronRight className="mr-3" />
             </div>
             <div
               //@ts-ignore
               onClick={() => toggleMenu("BABY")}
               className="flex justify-between border-b-2 h-14 items-center cursor-pointer"
             >
-              <div>BABY</div>
-              <ChevronRight />
+              <div className="ml-3">BABY</div>
+              <ChevronRight className="mr-3" />
             </div>
           </motion.div>
           <AnimatePresence>
@@ -81,43 +81,43 @@ const Menu = () => {
                   onClick={() => toggleMenu(null)}
                   className="flex justify-between border-b-2 h-14 items-center cursor-pointer"
                 >
-                  <ChevronLeft />
-                  <div className="mr-2">{menuOpen}</div>
+                  <ChevronLeft className="ml-3" />
+                  <div className="mr-3">{menuOpen}</div>
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                  <div>SHOP BY COLLECTION</div>
-                  <ChevronRight />
+                  <div className="ml-3">SHOP BY COLLECTION</div>
+                  <ChevronRight className="mr-3" />
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
                   {menuOpen === "KIDS" ? (
-                    <div>SHOP BY CATEGORY (AGE 3+)</div>
+                    <div className="ml-3">SHOP BY CATEGORY (AGE 3+)</div>
                   ) : menuOpen === "BABY" ? (
-                    <div>SHOP BY CATEGORY (0 - 4 YEARS)</div>
+                    <div className="ml-3">SHOP BY CATEGORY (0 - 4 YEARS)</div>
                   ) : (
-                    <div>SHOP BY CATEGORY</div>
+                    <div className="ml-3">SHOP BY CATEGORY</div>
                   )}
-                  <ChevronRight />
+                  <ChevronRight className="mr-3" />
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                  <div>FEATURED</div>
-                  <ChevronRight />
+                  <div className="ml-3">FEATURED</div>
+                  <ChevronRight className="mr-3" />
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                  <div>COLLABORATIONS</div>
-                  <ChevronRight />
+                  <div className="ml-3">COLLABORATIONS</div>
+                  <ChevronRight className="mr-3" />
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                  <div>DISCOVER LIFEWEAR</div>
-                  <ChevronRight />
+                  <div className="ml-3">DISCOVER LIFEWEAR</div>
+                  <ChevronRight className="mr-3" />
                 </div>
                 <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                  <div>SALE & LIMITED OFFERS</div>
-                  <ChevronRight />
+                  <div className="ml-3">SALE & LIMITED OFFERS</div>
+                  <ChevronRight className="mr-3" />
                 </div>
                 {menuOpen === "KIDS" ? (
                   <div className="flex justify-between border-b-2 h-14 items-center cursor-pointer">
-                    <div>NEW ARRIVALS</div>
-                    <ChevronRight />
+                    <div className="ml-3">NEW ARRIVALS</div>
+                    <ChevronRight className="mr-3" />
                   </div>
                 ) : null}
               </motion.div>

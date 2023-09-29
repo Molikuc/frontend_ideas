@@ -74,8 +74,8 @@ const Creditcard = () => {
   return (
     <div className="h-screen flex flex-col items-center">
       <div className="text-7xl flex justify-center my-5 mb-10">Credit Card</div>
-      <div className="flex">
-        <div className="bg-gradient-to-b from-indigo-500 via bg-purple-500 h-[16rem] w-[27rem] rounded-3xl text-white shadow-xl">
+      <div className="flex flex-col items-center gap-5">
+        <div className="bg-gradient-to-b from-indigo-500 via bg-purple-500  sm:h-[16rem] sm:w-[27rem] rounded-3xl text-white shadow-xl">
           <div className="flex justify-between mx-8 my-[1.3331rem]">
             <div>Professional</div>
             <Nfc className="text-white" />

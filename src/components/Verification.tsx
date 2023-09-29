@@ -28,7 +28,7 @@ const Verification = () => {
   return (
     <div className="h-screen flex flex-col items-center">
       <div className="text-4xl mb-5">Signup Card for Phone</div>
-      <div className="h-[844px] w-[390px] bg-slate-200 rounded-2xl shadow-2xl flex flex-col gap-2">
+      <div className="h-[844px] w-[390px] bg-slate-200 rounded-2xl shadow-2xl flex flex-col gap-2 px-3 sm:p-0">
         <div className="bg-slate-100 rounded-2xl">
           <div className="flex justify-between">
             <div className="ml-4 mt-2">11:31</div>

@@ -15,7 +15,7 @@ const ProfileCard = () => {
   return (
     <div className="h-screen flex flex-col items-center">
       <div className="text-4xl mb-5">Signup Card for Phone</div>
-      <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col">
+      <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col px-3 sm:p-0">
         <div className="h-[150px] w-full rounded-t-2xl bg-slate-500 relative">
           <div className="flex justify-between text-white">
             <div className="ml-4 mt-2">11:31</div>
