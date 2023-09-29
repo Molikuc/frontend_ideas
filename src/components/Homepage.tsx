@@ -139,6 +139,21 @@ export default function Home() {
         </div>
         <div className="text-2xl">Profile Card</div>
       </Link>
+      <Link
+        className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
+        href="/blog/verification"
+      >
+        <div className="h-[10rem] mb-8">
+          <Image
+            src={"/thumbnail/verification.png"}
+            width={500}
+            height={500}
+            alt="Verification Card"
+            className="object-cover h-full object-[50%_70%] "
+          />
+        </div>
+        <div className="text-2xl">Verification Mobile</div>
+      </Link>
     </div>
   );
 }

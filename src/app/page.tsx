@@ -12,6 +12,7 @@ export default function Home() {
           Most of the project got interactivity so don&rsquo;t be affraid to
           test it
         </h3>
+        <h4>Not mobile friendly right now</h4>
       </div>
       <Homepage />
     </>
