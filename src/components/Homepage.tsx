@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-3 m-[2.6669rem] gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-[2.6669rem] gap-8">
       <Link
         className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
         href="/blog/productcard"
