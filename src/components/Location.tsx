@@ -19,7 +19,7 @@ const Location = () => {
     <div className="h-screen flex flex-col items-center">
       <div className="text-4xl mb-5">Signup Card for Phone</div>
       <div
-        className="h-[844px] w-[390px] bg-[url('/thumbnail/maps.png')] bg-[length:550px]  rounded-2xl shadow-2xl flex flex-col gap-2 px-3 sm:p-0"
+        className="h-[844px] w-[390px] bg-[url('/thumbnail/Maps.png')] bg-[length:550px]  rounded-2xl shadow-2xl flex flex-col gap-2 px-3 sm:p-0"
         style={{ backgroundPosition: "-3rem 0" }}
       >
         <div>

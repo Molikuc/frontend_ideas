@@ -160,7 +160,7 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={"/thumbnail/location.png"}
+            src={"/thumbnail/Location.png"}
             width={500}
             height={500}
             alt="Location Mobile"
