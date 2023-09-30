@@ -8,6 +8,7 @@ import Creditcard from "@/components/Creditcard";
 import Menu from "@/components/Menu";
 import ProfileCard from "@/components/ProfileCard";
 import Verification from "@/components/Verification";
+import Location from "@/components/Location";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -34,6 +35,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <ProfileCard />;
       case "verification":
         return <Verification />;
+      case "location":
+        return <Location />;
       default:
         return <div>Element not Found</div>;
     }

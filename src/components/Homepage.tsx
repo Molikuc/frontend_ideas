@@ -154,6 +154,21 @@ export default function Home() {
         </div>
         <div className="text-2xl">Verification Mobile</div>
       </Link>
+      <Link
+        className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
+        href="/blog/location"
+      >
+        <div className="h-[10rem] mb-8">
+          <Image
+            src={"/thumbnail/location.png"}
+            width={500}
+            height={500}
+            alt="Location Mobile"
+            className="object-cover h-full object-[50%_20%] "
+          />
+        </div>
+        <div className="text-2xl">Location</div>
+      </Link>
     </div>
   );
 }
