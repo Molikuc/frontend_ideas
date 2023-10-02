@@ -176,10 +176,10 @@ export default function Home() {
       >
         <div className="h-[10rem] mb-8">
           <Image
-            src={"/thumbnail/Location.png"}
+            src={"/thumbnail/calculator.png"}
             width={500}
             height={500}
-            alt="Location Mobile"
+            alt="Calculator"
             className="object-cover h-full object-[50%_20%] "
           />
         </div>
