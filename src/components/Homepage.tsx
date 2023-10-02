@@ -157,6 +157,7 @@ export default function Home() {
       <Link
         className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
         href="/blog/location"
+        scroll={true}
       >
         <div className="h-[10rem] mb-8">
           <Image
@@ -168,6 +169,21 @@ export default function Home() {
           />
         </div>
         <div className="text-2xl">Location</div>
+      </Link>
+      <Link
+        className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
+        href="/blog/calculator"
+      >
+        <div className="h-[10rem] mb-8">
+          <Image
+            src={"/thumbnail/Location.png"}
+            width={500}
+            height={500}
+            alt="Location Mobile"
+            className="object-cover h-full object-[50%_20%] "
+          />
+        </div>
+        <div className="text-2xl">Calculator</div>
       </Link>
     </div>
   );

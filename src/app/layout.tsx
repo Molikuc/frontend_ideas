@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="mx-8 min-h-screen pt-12 bg-slate-50 antialiased">
         <Navbar />
-        <div className="mx-auto h-full pt-12">{children}</div>
+        <div className="mx-auto pt-12">{children}</div>
       </body>
     </html>
   );
