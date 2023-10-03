@@ -39,7 +39,7 @@ const CoffeeMenu = () => {
   console.log(selectedSection);
 
   return (
-    <div className="h-screen flex flex-col items-center">
+    <div className="h-full flex flex-col items-center ">
       <div className="text-4xl mb-5">Coffee Menu Mobile</div>
       <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col gap-2 px-3 sm:p-0">
         <div>
