@@ -10,6 +10,7 @@ import ProfileCard from "@/components/ProfileCard";
 import Verification from "@/components/Verification";
 import Location from "@/components/Location";
 import Calculator from "@/components/Calculator";
+import CoffeeMenu from "@/components/CoffeeMenu";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -40,6 +41,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <Location />;
       case "calculator":
         return <Calculator />;
+      case "coffeemenu":
+        return <CoffeeMenu />;
       default:
         return <div>Element not Found</div>;
     }
