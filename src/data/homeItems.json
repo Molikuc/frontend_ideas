@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "href": "/blog/shoppinglist",
+    "image": "/thumbnail/shoppinglist.png",
+    "label": "Shopping List",
+    "classPhoto": "object-cover h-full object-[50%_40%]"
+  },
+  {
+    "id": 2,
+    "href": "/blog/playercard",
+    "image": "/thumbnail/MusicPlayer.png",
+    "label": "Player Card",
+    "classPhoto": "object-cover h-full object-[50%_50%]"
+  },
+  {
+    "id": 3,
+    "href": "/blog/logincard",
+    "image": "/thumbnail/Login.png",
+    "label": "Login Card",
+    "classPhoto": "object-cover h-full object-[50%_50%]"
+  },
+  {
+    "id": 4,
+    "href": "/blog/signupcard",
+    "image": "/thumbnail/Signup.png",
+    "label": "Sign Up Card",
+    "classPhoto": "object-cover h-full object-[50%_50%]"
+  },
+  {
+    "id": 5,
+    "href": "/blog/calculator",
+    "image": "/thumbnail/calculator.png",
+    "label": "Calculator",
+    "classPhoto": "object-cover h-full object-[50%_20%]"
+  },
+  {
+    "id": 6,
+    "href": "/blog/location",
+    "image": "/thumbnail/Location.png",
+    "label": "Location",
+    "classPhoto": "object-cover h-full object-[50%_20%]"
+  },
+  {
+    "id": 7,
+    "href": "/blog/verification",
+    "image": "/thumbnail/verification.png",
+    "label": "Verification Mobile",
+    "classPhoto": "object-cover h-full object-[50%_70%]"
+  },
+  {
+    "id": 8,
+    "href": "/blog/creditcard",
+    "image": "/thumbnail/CreditCard.png",
+    "label": "Credit Card",
+    "classPhoto": "object-contain h-full object-center"
+  },
+  {
+    "id": 9,
+    "href": "/blog/menu",
+    "image": "/thumbnail/Menu.png",
+    "label": "Menu Animation",
+    "classPhoto": "object-contain h-full object-center"
+  },
+  {
+    "id": 10,
+    "href": "/blog/profilecard",
+    "image": "/thumbnail/Profile.png",
+    "label": "Profile Card",
+    "classPhoto": "object-cover h-full object-[50%_40%]"
+  },
+  {
+    "id": 11,
+    "href": "/blog/coffeemenu",
+    "image": "/thumbnail/coffee.png",
+    "label": "Coffee Menu",
+    "classPhoto": "object-cover h-full object-[50%_20%]"
+  },
+  {
+    "id": 12,
+    "href": "/blog/popupcard",
+    "image": "/thumbnail/Popup.png",
+    "label": "Pop Up Card",
+    "classPhoto": "object-cover h-full object-[50%_70%]"
+  },
+  {
+    "id": 13,
+    "href": "/blog/calendar",
+    "image": "/thumbnail/Calendar.png",
+    "label": "Calendar",
+    "classPhoto": "object-cover h-full object-[50%_70%]"
+  }
+]

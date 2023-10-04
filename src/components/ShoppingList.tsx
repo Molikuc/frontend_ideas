@@ -78,7 +78,7 @@ const ShoppingList = () => {
 
   return (
     <div className="h-full flex flex-col items-center ">
-      <div className="text-4xl mb-5">Coffee Menu Mobile</div>
+      <div className="text-4xl mb-5">Shopping List</div>
       <div className="h-[844px] w-[390px] bg-slate-100 rounded-2xl shadow-2xl flex flex-col gap-2 px-3 sm:p-0 relative">
         <div className="flex justify-between">
           <div className="ml-4 mt-2">11:30</div>
