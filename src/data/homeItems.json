@@ -89,5 +89,12 @@
     "image": "/thumbnail/Calendar.png",
     "label": "Calendar",
     "classPhoto": "object-cover h-full object-[50%_70%]"
+  },
+  {
+    "id": 14,
+    "href": "/blog/productcard",
+    "image": "/thumbnail/ProductCard.png",
+    "label": "Product Card",
+    "classPhoto": "object-cover h-full object-center"
   }
 ]
