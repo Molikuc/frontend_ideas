@@ -11,6 +11,7 @@ import Verification from "@/components/Verification";
 import Location from "@/components/Location";
 import Calculator from "@/components/Calculator";
 import CoffeeMenu from "@/components/CoffeeMenu";
+import ShoppingList from "@/components/ShoppingList";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -43,6 +44,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <Calculator />;
       case "coffeemenu":
         return <CoffeeMenu />;
+      case "shoppinglist":
+        return <ShoppingList />;
       default:
         return <div>Element not Found</div>;
     }

@@ -200,6 +200,21 @@ export default function Home() {
         </div>
         <div className="text-2xl">Coffee Menu</div>
       </Link>
+      <Link
+        className=" bg-zinc-100 p-[2.6669rem] text-center rounded-lg shadow-lg min-w-[15rem]"
+        href="/blog/shoppinglist"
+      >
+        <div className="h-[10rem] mb-8">
+          <Image
+            src={"/thumbnail/coffee.png"}
+            width={500}
+            height={500}
+            alt="Calculator"
+            className="object-cover h-full object-[50%_20%] "
+          />
+        </div>
+        <div className="text-2xl">Shopping List</div>
+      </Link>
     </div>
   );
 }
