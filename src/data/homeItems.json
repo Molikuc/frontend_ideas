@@ -36,10 +36,10 @@
   },
   {
     "id": 6,
-    "href": "/blog/location",
-    "image": "/thumbnail/Location.png",
-    "label": "Location",
-    "classPhoto": "object-cover h-full object-[50%_20%]"
+    "href": "/blog/article",
+    "image": "/thumbnail/articles.png",
+    "label": "Article",
+    "classPhoto": "object-cover h-full object-[50%_60%]"
   },
   {
     "id": 7,
@@ -57,10 +57,10 @@
   },
   {
     "id": 9,
-    "href": "/blog/menu",
-    "image": "/thumbnail/Menu.png",
-    "label": "Menu Animation",
-    "classPhoto": "object-contain h-full object-center"
+    "href": "/blog/location",
+    "image": "/thumbnail/Location.png",
+    "label": "Location",
+    "classPhoto": "object-cover h-full object-[50%_20%]"
   },
   {
     "id": 10,
@@ -99,9 +99,9 @@
   },
   {
     "id": 15,
-    "href": "/blog/article",
-    "image": "/thumbnail/ProductCard.png",
-    "label": "Articles",
-    "classPhoto": "object-cover h-full object-center"
+    "href": "/blog/menu",
+    "image": "/thumbnail/Menu.png",
+    "label": "Menu Animation",
+    "classPhoto": "object-contain h-full object-center"
   }
 ]
