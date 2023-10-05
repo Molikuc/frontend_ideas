@@ -96,5 +96,12 @@
     "image": "/thumbnail/ProductCard.png",
     "label": "Product Card",
     "classPhoto": "object-cover h-full object-center"
+  },
+  {
+    "id": 15,
+    "href": "/blog/article",
+    "image": "/thumbnail/ProductCard.png",
+    "label": "Articles",
+    "classPhoto": "object-cover h-full object-center"
   }
 ]
