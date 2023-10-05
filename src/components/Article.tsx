@@ -6,9 +6,18 @@ import { MdSignalCellularAlt, MdWifi } from "react-icons/md";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/Avatar";
 import Image from "next/image";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Article = () => {
   const [activeIcon, setActiveIcon] = useState(null);
+  const [index, setIndex] = useState(0);
+
+  const headlines = [
+    "https://picsum.photos/id/13/400/300",
+    "https://picsum.photos/id/17/400/300",
+    "https://picsum.photos/id/29/400/300",
+    "https://picsum.photos/id/48/400/300",
+  ];
 
   const shortStories = [
     { id: 1, image: "https://picsum.photos/id/13/200/300", label: "Beach" },
@@ -56,6 +65,24 @@ const Article = () => {
     setActiveIcon(iconName);
   };
 
+  const nextStep = () => {
+    if (index === headlines.length - 1) {
+      return setIndex(0);
+    }
+    setIndex(index + 1);
+  };
+
+  const prevStep = () => {
+    if (index === 0) {
+      return setIndex(headlines.length - 1);
+    }
+    setIndex(index - 1);
+  };
+
+  const swipeConfidenceThreshold = 10000;
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity;
+  };
   return (
     <div className="h-full flex flex-col items-center ">
       <div className="text-4xl mb-5">Shopping List</div>
@@ -77,8 +104,43 @@ const Article = () => {
         <div className="text-2xl mt-[1.3331rem] mx-[1.3331rem]">
           Headline Stories
         </div>
-        <div className="h-[30%] bg-slate-500">
-          Image Slideshow with text on it.
+        <div className="h-[30%] mx-[1.3331rem] rounded-lg">
+          <AnimatePresence>
+            <motion.div className="cursor-grab overflow-hidden h-full rounded-lg">
+              <motion.div className="flex">
+                <motion.div
+                  key={Math.random()}
+                  drag="x"
+                  dragConstraints={{ left: 0, right: 0 }}
+                  dragElastic={1}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{
+                    x: { type: "spring", stiffness: 300, damping: 30 },
+                    opacity: { duration: 0.2 },
+                  }}
+                  className="min-h-[300px]min-w-[400px]"
+                  onDragEnd={(e, { offset, velocity }) => {
+                    const swipe = swipePower(offset.x, velocity.x);
+                    if (swipe < -swipeConfidenceThreshold) {
+                      nextStep();
+                    } else if (swipe > swipeConfidenceThreshold) {
+                      prevStep();
+                    }
+                  }}
+                >
+                  <Image
+                    src={headlines[index]}
+                    alt="test"
+                    width={400}
+                    height={300}
+                    className="pointer-events-none h-full "
+                  />
+                </motion.div>
+              </motion.div>
+            </motion.div>
+          </AnimatePresence>
         </div>
         <div className="my-[1.3331rem] mx-[0.5rem] sm:mx-[1.3331rem]">
           <div className="text-xl mb-[0.6669rem]">Short Stories</div>
