@@ -17,6 +17,30 @@ const Article = () => {
     "https://picsum.photos/id/17/400/300",
     "https://picsum.photos/id/29/400/300",
     "https://picsum.photos/id/48/400/300",
+    "https://picsum.photos/id/480/400/300",
+  ];
+
+  const headlines1 = [
+    {
+      label: "Breaking news",
+      desc: "This is an amazing breaking news",
+    },
+    {
+      label: "ENVIRONMENT",
+      desc: "This is another amzing  news about a lot of things I'm sure you're gonna like it",
+    },
+    {
+      label: "One Breaking",
+      desc: "No news on this one, just a photo",
+    },
+    {
+      label: "Shocking News",
+      desc: "I don't know what to write anymore but I will try to make it long",
+    },
+    {
+      label: "Breaking news",
+      desc: "You came all that way to here, welcome, take a set, enjoy",
+    },
   ];
 
   const shortStories = [
@@ -106,7 +130,10 @@ const Article = () => {
         </div>
         <div className="h-[30%] mx-[1.3331rem] rounded-lg">
           <AnimatePresence>
-            <motion.div className="cursor-grab overflow-hidden h-full rounded-lg">
+            <motion.div
+              className="cursor-grab overflow-hidden h-full rounded-lg relative"
+              whileTap={{ cursor: "grabbing" }}
+            >
               <motion.div className="flex">
                 <motion.div
                   key={Math.random()}
@@ -135,8 +162,14 @@ const Article = () => {
                     alt="test"
                     width={400}
                     height={300}
-                    className="pointer-events-none h-full "
+                    className="pointer-events-none h-full brightness-50"
                   />
+                  <div className="absolute top-4 right-0 bg-red-600 rounded-full px-2 text-white mr-[1.3331rem]">
+                    <h2>{headlines1[index].label}</h2>
+                  </div>
+                  <div className="absolute bottom-0 text-white mb-[1.3331rem] mx-[1.3331rem] font-bold">
+                    {headlines1[index].desc}
+                  </div>
                 </motion.div>
               </motion.div>
             </motion.div>
