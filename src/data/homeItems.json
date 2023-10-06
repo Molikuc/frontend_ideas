@@ -103,5 +103,12 @@
     "image": "/thumbnail/Menu.png",
     "label": "Menu Animation",
     "classPhoto": "object-contain h-full object-center"
+  },
+  {
+    "id": 16,
+    "href": "/blog/chart",
+    "image": "/thumbnail/chart.png",
+    "label": "Chart",
+    "classPhoto": "object-contain h-full object-center"
   }
 ]
