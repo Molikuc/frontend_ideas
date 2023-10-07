@@ -14,6 +14,7 @@ import CoffeeMenu from "@/components/CoffeeMenu";
 import ShoppingList from "@/components/ShoppingList";
 import Article from "@/components/Article";
 import Chart from "@/components/Chart";
+import Sleep from "@/components/Sleep";
 
 const ElementPage = ({ params }: { params: { slug: string } }) => {
   const element = params.slug;
@@ -52,6 +53,8 @@ const ElementPage = ({ params }: { params: { slug: string } }) => {
         return <Article />;
       case "chart":
         return <Chart />;
+      case "sleep":
+        return <Sleep />;
       default:
         return <div>Element not Found</div>;
     }
